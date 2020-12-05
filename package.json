@@ -1,0 +1,27 @@
+{
+  "name": "interviewquestions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "AddTwoNumbers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:fix": "eslint --ext .js ./ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/napoleon-commits/WhiteBoardCodingQuestions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/napoleon-commits/WhiteBoardCodingQuestions/issues"
+  },
+  "homepage": "https://github.com/napoleon-commits/WhiteBoardCodingQuestions#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-vue": "^7.2.0"
+  }
+}
