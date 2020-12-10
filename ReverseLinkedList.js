@@ -44,12 +44,12 @@ const reverseIteratively = (head) => {
 };
 
 const reverseRecursively = (currentNode) => {
-  const cpyCurrentNode = currentNode;
-  if (currentNode === null) return currentNode;
-  if (currentNode.next === null) return currentNode;
+  if (currentNode === null || currentNode.next === null) return currentNode;
   const recursiveLL = reverseRecursively(currentNode.next);
-  cpyCurrentNode.next.next = cpyCurrentNode;
-  cpyCurrentNode.next = null;
+  // eslint-disable-next-line
+  currentNode.next.next = currentNode;
+  // eslint-disable-next-line
+  currentNode.next = null;
   return recursiveLL;
 };
 
