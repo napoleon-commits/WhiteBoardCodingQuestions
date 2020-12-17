@@ -12,14 +12,14 @@ const preOrder = (currentNode) => {
 };
 
 /**
- * 
+ *
  * You are given the root of a binary tree. Invert the binary tree in place.
- * That is, all left children should become right children, 
+ * That is, all left children should become right children,
  * and all right children should become left children.
- * 
- * @param {Object} currentNode 
- * 
- * @returns {Object} inverted tree 
+ *
+ * @param {Object} currentNode
+ *
+ * @returns {Object} inverted tree
  */
 const invertTree = (currentNode) => {
   const copyNode = currentNode;
