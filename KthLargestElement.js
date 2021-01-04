@@ -1,9 +1,9 @@
 /**
- * 
+ *
  * Given a list, find the k-th largest element in the list
- * 
- * @param {Array} nums 
- * @param {index} k 
+ *
+ * @param {Array} nums
+ * @param {index} k
  */
 const findKthLargest = (nums, k) => {
   const hashMap = {};
