@@ -2,13 +2,8 @@ const arr = [];
 
 const numberOfItems = 10;
 
-let max = Number.NEGATIVE_INFINITY;
-
 for (let i = 0; i < numberOfItems; i += 1) {
   const newNumber = Math.floor(Math.random() * 10);
-  if (max < newNumber) {
-    max = newNumber;
-  }
   arr.push(newNumber);
 }
 
