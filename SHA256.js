@@ -105,17 +105,10 @@ function sha256(ascii) {
 
 // eslint-disable-next-line
 console.log(
-  sha256(
-    sha256(
-      String(Date.now() + (Math.floor(Math.random() * (10 ** 13)))),
-    ),
-  ),
-);
-// eslint-disable-next-line
-console.log(
-  sha256(
-    sha256(
-      String(Date.now() + (Math.floor(Math.random() * (10 ** 13)))),
-    ),
-  ),
+  `Guest${
+    (String(sha256(
+      sha256(
+        String(Date.now() + (Math.floor(Math.random() * (10 ** 13)))),
+      ),
+    )).substring(0, 7)).toUpperCase()}`,
 );
